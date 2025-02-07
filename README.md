@@ -1,32 +1,28 @@
-# The Hub for Discovering Recycling Centers (TBD)
+# Recycle Connect
 
-[YoungWonks](https://youngwonks.com) Open Source Project Summer 2022
-
-Our project, **NAME**, taking place over the summer of 2022, second iteration of our open source initiative built by YoungWonks students to put their coding skills to work towards benefitting the community.
-
-We, at YoungWonks, always believe in contributing towards a good cause in society. The coding skills of our students put us in a place where they can contribute in a way that has a social impact. It is with this in mind, that the students of YoungWonks have decided to engage in a socially beneficial open source coding real-world production level project.
+This project is a recycling sustainability social media app. Consumers who don't know how to recycle their items, like batteries, can post a post about their recyclable items, then a volunteer and see the post and use that information to get the items and put it in a recycling plant. The volunteer can see the nearest recycling plant on the app also.
 
 ## Clone the code repository
 
 ```bash
-git clone https://github.com/YoungWonks/ywsos2022.git
-cd ywsos2022
+git clone https://github.com/Saketh-Parimi/RecycleConnect
+cd RecycleConnect
 ```
 
 ## Prerequisites
 
 Backend:
 
-- [Python > 3.8](https://python.org) _(NOTE: MacOS and Linux users should use the `python3` command, while Windows users should use `python`)_
+-   [Python > 3.8](https://python.org) _(NOTE: MacOS and Linux users should use the `python3` command, while Windows users should use `python`)_
 
 Frontend:
 
-- [NodeJS > 16.1](https://nodejs.org)
+-   [NodeJS > 16.1](https://nodejs.org)
 
 Mobile:
 
-- [Flutter > 3.4](https://flutter.dev)
-- [Android Studio](https://docs.flutter.dev/get-started/install/macos#android-setup) for Android development on Windows, MacOS, or Linux OR [Xcode](https://docs.flutter.dev/get-started/install/macos#ios-setup) for iOS development on MacOS
+-   [Flutter > 3.4](https://flutter.dev)
+-   [Android Studio](https://docs.flutter.dev/get-started/install/macos#android-setup) for Android development on Windows, MacOS, or Linux OR [Xcode](https://docs.flutter.dev/get-started/install/macos#ios-setup) for iOS development on MacOS
 
 ## Setting up Environment Variables (TODO)
 
