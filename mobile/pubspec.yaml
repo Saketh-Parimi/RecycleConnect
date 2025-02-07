@@ -1,0 +1,53 @@
+name: mobile
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <3.6.0"
+
+dependencies:
+  flex_color_scheme: ^7.0.5
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_secure_storage: ^8.0.0
+  font_awesome_flutter: ^10.4.0
+  freezed_annotation: ^2.4.1
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  google_fonts: ^4.0.3
+  google_maps_flutter: ^2.3.0
+  http: ^0.13.6
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.3
+  analyzer: ^5.2.0
+  mockito: ^5.3.2
+  freezed: ^2.4.1
+  json_serializable: ^6.6.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/.env
+
+analyzer:
+  strong-mode: true
+  language:
+    enableSuperMixins: true
