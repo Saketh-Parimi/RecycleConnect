@@ -24,18 +24,6 @@ Mobile:
 -   [Flutter > 3.4](https://flutter.dev)
 -   [Android Studio](https://docs.flutter.dev/get-started/install/macos#android-setup) for Android development on Windows, MacOS, or Linux OR [Xcode](https://docs.flutter.dev/get-started/install/macos#ios-setup) for iOS development on MacOS
 
-## Setting up Environment Variables (TODO)
-
-## Setting up the Web Frontend (Client Folder)
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-Navigate to the URL displayed in the terminal in your web browser of choice.
-
 ## Setting up the Mobile Frontend (Mobile Folder)
 
 Make sure to run `flutter doctor` and fix any issues with the SDK installation. Then, launch your emulator from either Android Studio or Xcode.
